@@ -11,27 +11,27 @@ I will attach the projects I created to them so you have an idea, but feel free 
 
 **1.  Responsive Web Design Projects**
 
--   Tribute Page
--   Survey From
--   Product Landing Page
--   Technical Documentation Page
--   Personal Portfolio Webpage
+-   [Tribute Page](https://github.com/yonasuriv/portfolio/tree/main/Responsive%20Web%20Design/Tribute%20Page)
+-   [Survey From](https://github.com/yonasuriv/portfolio/tree/main/Responsive%20Web%20Design/Survey%20Form)
+-   [Product Landing Page](https://github.com/yonasuriv/portfolio/tree/main/Responsive%20Web%20Design/Product%20Landing%20Page)
+-   [Technical Documentation Page](https://github.com/yonasuriv/portfolio/tree/main/Responsive%20Web%20Design/Technical%20Documentation%20Page)
+-   [Personal Portfolio Webpage](https://github.com/yonasuriv/portfolio/tree/main/Responsive%20Web%20Design/Personal%20Portoflio)
 
 **2. JavaScript Algorithms and Data Structures Projects**
 
--   Palindrome Checker
--   Roman Numeral Converter
--   Caesars Cipher
--   Telephone Number Validator
--   Cash Register
+-   [Palindrome Checker](https://github.com/yonasuriv/portfolio/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures/Palindrome%20Checker)
+-   [Roman Numeral Converter](https://github.com/yonasuriv/portfolio/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures/Roman%20Numeral%20Converter)
+-   [Caesars Cipher](https://github.com/yonasuriv/portfolio/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures/Caesars%20Cipher)
+-   [Telephone Number Validator](https://github.com/yonasuriv/portfolio/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures/Telephone%20Number%20Validator)
+-   [Cash Register](https://github.com/yonasuriv/portfolio/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures/Cash%20Register)
 
 **3. Front End Development Libraries Projects**
 
--   Random Quote Machine
--   Markdown Previewer
--   Drum Machine
--   JavaScript Calculator
--   25 + 5 Clock
+-   [Random Quote Machine](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/Random%20Quote%20Machine)
+-   [Markdown Previewer](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/Markdown%20Previewer)
+-   [Drum Machine](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/Drum%20Machine)
+-   [JavaScript Calculator](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/JavaScript%20Calculator)
+-   [Pomodoro Clock](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/Pomodoro%20Clock)
 
 
 These are definitely the 3 things you must show:
