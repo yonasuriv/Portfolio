@@ -1,7 +1,7 @@
 ## Junior Software Engineering Portfolio
 
-Below is a list of the recommended junior portfolio.
-I will attach the projects I created to them, but feel free to edit the embedded links with your own.
+Below is a list of the recommended portfolio a junior software engineer should have.
+I will attach the projects I created to them so you have an idea, but feel free to edit the embedded links with your own.
 
 **0.  Terminal Projects**
 -   GitHub Automation
@@ -32,6 +32,19 @@ I will attach the projects I created to them, but feel free to edit the embedded
 -   Drum Machine
 -   JavaScript Calculator
 -   25 + 5 Clock
+
+
+These are definitely the 3 things you must show:
+
+1.  **Passion**
+2.  **Energy**
+3.  **Capacity** (to evolve and learn "alone")
+
+Check out other projects to see people solving the same problem. 
+Getting inspiration from their ideas (please don't blindly copy code without understanding its meaning) is not cheating, you can learn a lot by doing it.
+Continuously improve and refine your projects. Put yourself in the shoes of the person who is hiring and pay attention to the details that make the difference (this is how you show the 3 things above)
+
+I'll be adding some so you can take a look, meanwhile feel free to search for them on your favorite search engine.
 
 ## How can I become a Junior Software Developer?
 
