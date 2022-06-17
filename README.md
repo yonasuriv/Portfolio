@@ -4,8 +4,8 @@ Below is a list of the recommended portfolio a junior software engineer should h
 I will attach the projects I created to them so you have an idea, but feel free to edit the embedded links with your own.
 
 **0.  Terminal Projects**
--   GitHub Automation
--   Shell Customization Framework
+-   [GitHub Automation](https://github.com/yonasuriv/GitHubAvtomata)
+-   [Shell Customization Framework](https://github.com/yonasuriv/SigmaPowerShell)
 
 *These are totally optional, created to automate tasks and make work more efficient.*
 
