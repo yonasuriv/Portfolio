@@ -1,3 +1,4 @@
+
 ## Junior Software Engineering Portfolio
 
 Below is a list of the recommended portfolio a junior software engineer should have.<br>
@@ -13,7 +14,10 @@ I will attach the projects I've created to them so you have an idea, feel free t
 **0.2  Developer Tools**
 -   [JavaScript Console](https://github.com/yonasuriv/JavaScriptConsole)
 
-These are totally optional, I've created to automate tasks and make work more efficient.
+**0.2  Search Engine**
+-   [Flash Whisper Search Engine](https://github.com/yonasuriv/JavaScriptConsole) Born as a Clone Project but got updated for merging Google and DuckDuckGo
+
+These are **totally optional**, I've created them to automate tasks and make work more efficient.
 
 **1.  Responsive Web Design Projects**
 
