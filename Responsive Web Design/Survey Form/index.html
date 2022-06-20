@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="icon" href="./ico/favicon.png">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center">Quote Form for Website</h1>
+    <p id="description" class="description text-center">
+      Thank you for choosing us, we will be in contact with you shortly.
+    </p>
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >Age<span class="clue">(optional)</span></label
+      >
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="10"
+        max="99"
+        class="form-control"
+        placeholder="Age"
+      />
+    </div>
+
+    <div class="form-group">
+      <p>Do you currently have a website?</p>
+      <label>
+        <input
+          name="user-recommend"
+          value="Yes"
+          type="radio"
+          class="input-radio"
+          checked
+        />No</label>
+
+      <label>
+        <input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        />Yes</label>
+
+    </div>
+
+    <div class="form-group">
+      <p>
+        What would describe best the goal of your website?
+      </p>
+      <select id="most-like" title="mostLike" name="mostLike" class="form-control" required>
+        <option disabled selected value>Select an option</option>
+        <option value="challenges">Personal</option>
+        <option value="projects">Entrepreneur</option>
+        <option value="community">Startup</option>
+        <option value="openSource">Business</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>
+        How often do you think support would be needed?
+      </p>
+      <select id="most-like" title="mostLike" name="mostLike" class="form-control" required>
+        <option disabled selected value>Select an option</option>
+        <option value="challenges">No support</option>
+        <option value="projects">Monthly support</option>
+        <option value="community">Weekly support</option>
+        <option value="openSource">Daily support</option>
+      </select>
+    </div>
+
+
+    <div class="form-group">
+      <p>
+        What feautres would you like your website to have?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label
+        ><input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"
+        />Own Domain</label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="back-end-projects"
+          type="checkbox"
+          class="input-checkbox"
+        />Cloudflare</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="data-visualization"
+          type="checkbox"
+          class="input-checkbox"
+        />SSL</label
+      >
+      <label
+      ><input
+        name="prefer"
+        value="data-visualization"
+        type="checkbox"
+        class="input-checkbox"
+        />VPN</label
+      >
+      <label
+      ><input
+        name="prefer"
+        value="data-visualization"
+        type="checkbox"
+        class="input-checkbox"
+        />SiteLock</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="challenges"
+          type="checkbox"
+          class="input-checkbox"
+        />SEO Optimization</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="open-source-community"
+          type="checkbox"
+          class="input-checkbox"
+        />Show products or services</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="gitter-help-rooms"
+          type="checkbox"
+          class="input-checkbox"
+        />E-commerce</label
+      >
+    </div>
+
+    <div class="form-group">
+      <p>Any additional information?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+</body>
+</html>
