@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethereum Technical Documentation Page</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./images/favicon.png">
+</head>
+<body>
+<nav id="navbar">
+  <header>Ethereum Documentation</header>
+  <ul>
+    <li><a class="nav-link" href="#Blockchain">Blockchain</a></li>
+    <li><a class="nav-link" href="#Ethereum">Ethereum</a></li>
+    <li><a class="nav-link" href="#Ether">Ether</a></li>
+    <li><a class="nav-link" href="#Smart_Contracts">Smart Contracts</a></li>
+    <li><a class="nav-link" href="#DAPPs">Decentralized Apps</a></li>
+    <li><a class="nav-link" href="#Web3">Web2 vs Web3</a></li>
+    <li><a class="nav-link" href="#Terminology">Terminology</a></li>
+    <li><a class="nav-link" href="#Further_Reading">Further Reading</a></li>
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Blockchain">
+    <header>WEB3: A Comprehensive Guide into the World of Ethereum</header>
+    <article>
+      <h2>WHAT IS A BLOCKCHAIN?</h2>
+        <p>
+        A blockchain is a public database that is updated and shared across many computers in a network.
+        <p>   
+        "Block" refers to data and state being stored in consecutive groups known as "blocks". If you send ETH to someone else, the transaction data needs to be added to a block to be successful.
+        </p><p>
+        "Chain" refers to the fact that each block cryptographically references its parent. In other words, blocks get chained together. The data in a block cannot change without changing all subsequent blocks, which would require the consensus of the entire network.
+        </p><p>
+        Every computer in the network must agree upon each new block and the chain as a whole. These computers are known as "nodes". Nodes ensure everyone interacting with the blockchain has the same data. To accomplish this distributed agreement, blockchains need a consensus mechanism.
+        </p><p>
+        Ethereum currently uses a proof-of-work consensus mechanism. This means that anyone who wants to add new blocks to the chain must solve a difficult puzzle that requires a lot of computing power. Solving the puzzle "proves" that you have done the "work" by using computational resources. Doing this is known as mining. Mining is typically brute force trial and error, but successfully adding a block is rewarded in ETH.
+        </p><p>
+        New blocks are broadcast to the nodes in the network, checked and verified, thus updating the state of the blockchain for everyone.
+        </p><p>
+        So to summarize, when you send ETH to someone, the transaction must be added to the block which will get mined. The updated state is then shared with the entire network.
+        </p><p>
+        Watch Austin walk you through blockchains on <a href="https://www.youtube.com/watch?v=zcX7OJ-L8XQ" target="_blank" rel="noopener">YouTube</a>
+        </p><p>
+        If you want to see how blockchain hashes data and then the previous block references all the past blocks, be sure to check out this on <a href="https://andersbrownworth.com/blockchain/blockchain" target="_blank" rel="noopener">demo</a> by Anders Brownworth and watch the accompanying video on <a href="https://www.youtube.com/watch?v=_160oMzblY8" target="_blank" rel="noopener">YouTube</a>
+        </p>
+        <section class="main-section" id="Ethereum"></section>
+      <h2>WHAT IS ETHEREUM?</h2>
+        <p>
+        In the Ethereum universe, there is a single, canonical computer (called the Ethereum Virtual Machine, or EVM) whose state everyone on the Ethereum network agrees on. Everyone who participates in the Ethereum network (every Ethereum node) keeps a copy of the state of this computer. Additionally, any participant can broadcast a request for this computer to perform arbitrary computation. Whenever such a request is broadcast, other participants on the network verify, validate, and carry out ("execute") the computation. This execution causes a state change in the EVM, which is committed and propagated throughout the entire network.
+        </p><p>
+        Requests for computation are called transaction requests; the record of all transactions and the EVM's present state gets stored on the blockchain, which in turn is stored and agreed upon by all nodes.
+        </p><p>
+        Cryptographic mechanisms ensure that once transactions are verified as valid and added to the blockchain, they can't be tampered with later. The same mechanisms also ensure that all transactions are signed and executed with appropriate "permissions" (no one should be able to send digital assets from Alice's account, except for Alice herself).
+        </p>
+        <p>
+          <section class="main-section" id="Ether"></section>
+      <h2>WHAT IS ETHER?</h2>
+        <p></p>
+        Ether (ETH) is the native cryptocurrency of Ethereum. The purpose of ether is to allow for a market for computation. Such a market provides an economic incentive for participants to verify and execute transaction requests and provide computational resources to the network.
+        </p><p>
+        Any participant who broadcasts a transaction request must also offer some amount of ether to the network as a bounty. This bounty will be awarded to whoever eventually does the work of verifying the transaction, executing it, committing it to the blockchain, and broadcasting it to the network.
+        </p><p>
+        The amount of ether paid corresponds to the time required to do the computation. These bounties also prevent malicious participants from intentionally clogging the network by requesting the execution of infinite computation or other resource-intensive scripts, as these participants must pay for computation time.
+        </p>
+        <section class="main-section" id="Smart_Contracts"></section>
+      <h2>WHAT ARE SMART CONTRACTS?</h2>
+        <p>In practice, participants don't write new code every time they want to request a computation on the EVM. Rather, application developers upload programs (reusable snippets of code) into EVM state, and users make requests to execute these code snippets with varying parameters. We call the programs uploaded to and executed by the network smart contracts.
+        </p><p>
+        At a very basic level, you can think of a smart contract like a sort of vending machine: a script that, when called with certain parameters, performs some actions or computation if certain conditions are satisfied. For example, a simple vendor smart contract could create and assign ownership of a digital asset if the caller sends ETH to a specific recipient.
+        </p><p>
+        Any developer can create a smart contract and make it public to the network, using the blockchain as its data layer, for a fee paid to the network. Any user can then call the smart contract to execute its code, again for a fee paid to the network.
+        </p><p>
+        Thus, with smart contracts, developers can build and deploy arbitrarily complex user-facing apps and services such as: marketplaces, financial instruments, games, etc.
+        </p>
+        <section class="main-section" id="DAPPs">
+      <h2>DECENTRALIZED APPLICATIONS (DAPPs)</h2>
+        <p>
+        A dapp has its backend code running on a decentralized peer-to-peer network. Contrast this with an app where the backend code is running on centralized servers.
+        </p><p>
+        A dapp can have frontend code and user interfaces written in any language (just like an app) to make calls to its backend. Furthermore, its frontend can get hosted on decentralized storage such as IPFS.
+        </p><p>
+        <ul>
+        <li><h3>Decentralized</h3></li>
+        DAPPs operate on Ethereum, an open public decentralized platform where no one person or group has control
+        <li><h3>Deterministic</h3></li> DAPPs perform the same function irrespective of the environment in which they get executed
+        <li><h3>Turing complete</h3></li> DAPPs can perform any action given the required resources
+        <li><h3>Isolated</h3></li> DAPPs are executed in a virtual environment known as Ethereum Virtual Machine so that if the smart contract has a bug, it won’t hamper the normal functioning of the blockchain network
+        </ul>
+        <h3>On smart contracts</h3>
+        <p>
+        A smart contract is code that lives on the Ethereum blockchain and runs exactly as programmed. Once smart contracts are deployed on the network you can't change them. Dapps can be decentralized because they are controlled by the logic written into the contract, not an individual or company. This also means you need to design your contracts very carefully and test them thoroughly.
+        </p>
+      <h3>BENEFITS OF DAPP DEVELOPMENT</h3>
+        <ul>
+        <li><h3>Zero downtime</h3></li>Once the smart contract is deployed on the blockchain, the network as a whole will always be able to serve clients looking to interact with the contract. Malicious actors, therefore, cannot launch denial-of-service attacks targeted towards individual dapps.
+        <li><h3>Privacy</h3></li>You don’t need to provide real-world identity to deploy or interact with a dapp.
+        <li><h3>Resistance to censorship</h3></li>No single entity on the network can block users from submitting transactions, deploying dapps, or reading data from the blockchain.
+        <li><h3>Complete data integrity</h3></li>Data stored on the blockchain is immutable and indisputable, thanks to cryptographic primitives. Malicious actors cannot forge transactions or other data that has already been made public.
+        <li><h3>Trustless computation/verifiable behavior</h3></li>Smart contracts can be analyzed and are guaranteed to execute in predictable ways, without the need to trust a central authority. This is not true in traditional models; for example, when we use online banking systems, we must trust that financial institutions will not misuse our financial data, tamper with records, or get hacked.
+        </ul>
+        <br>
+      <h3>DRAWBACKS OF DAPP DEVELOPMENT</h3>
+        <ul>
+        <li><h3>Maintenance</h3></li>Dapps can be harder to maintain because the code and data published to the blockchain are harder to modify. It’s hard for developers to make updates to their dapps (or the underlying data stored by a dapp) once they are deployed, even if bugs or security risks are identified in an old version.
+        <li><h3>Performance overhead</h3></li>There is a huge performance overhead, and scaling is really hard. To achieve the level of security, integrity, transparency, and reliability that Ethereum aspires to, every node runs and stores every transaction. On top of this, proof-of-work takes time as well. A back-of-the-envelope calculation puts the overhead at something like 1,000,000x that of standard computation currently.
+        <li><h3>Network congestion</h3></li>When one dapp uses too many computational resources, the entire network gets backed up. Currently, the network can only process about 10-15 transactions per second; if transactions are being sent in faster than this, the pool of unconfirmed transactions can quickly balloon.
+        <li><h3>User experience</h3></li>It may be harder to engineer user-friendly experiences because the average end-user might find it too difficult to set up a tool stack necessary to interact with the blockchain in a truly secure fashion.
+        <li><h3>Centralization</h3></li>User-friendly and developer-friendly solutions built on top of the base layer of Ethereum might end up looking like centralized services anyways. For example, such services may store keys or other sensitive information server-side, serve a frontend using a centralized server, or run important business logic on a centralized server before writing to the blockchain. Centralization eliminates many (if not all) of the advantages of blockchain over the traditional model.
+        </ul>
+        <section class="main-section" id="Terminology"></section>
+      </section>
+      <section class="main-section" id="Web3">
+      <h2>WEB2 vs WEB3</h2>
+      Web2 refers to the version of the internet most of us know today. An internet dominated by companies that provide services in exchange for your personal data. Web3, in the context of Ethereum, refers to decentralized apps that run on the blockchain. These are apps that allow anyone to participate without monetising their personal data.
+      <br><br>
+      Looking for a more beginner-friendly resource? See our introduction to <a href="https://ethereum.org/en/web3/"target="_blank" rel="noopener">Web 3</a>
+      <br>
+      <h3>WEB3 BENEFITS</h3>
+      <p>Many Web3 developers have chosen to build dapps because of Ethereum's inherent decentralization:</p>
+      <ul>
+        <li>Anyone who is on the network has permission to use the service – or in other words, permission isn't required.</li>
+        <li>No one can block you or deny you access to the service.</li>
+        <li>Payments are built in via the native token, ether (ETH).</li>
+        <li>Ethereum is turing-complete, meaning you can pretty much program anything.</li>
+      </ul>
+      <h2>PRACTICAL COMPARISONS</h2>
+        <h3>WEB2</h3>
+      <ul>
+        <li>Twitter can censor any account or tweet</li>
+        <li>Payment service may decide to not allow payments for certain types of work</li>
+        <li>Servers for gig-economy apps could go down and affect worker income</li>
+      </ul>
+      <h3>WEB3</h3>
+      <ul>
+        <li>Web3 tweets would be uncensorable because control is decentralized</li>
+        <li>Web3 payment apps require no personal data and can't prevent payments</li>
+        <li>Web3 servers can't go down – they use Ethereum, a decentralized network of 1000s of computers as their backend</li>
+      </ul>
+      <br>
+      <p>This doesn't mean that all services need to be turned into a dapp.<br>
+         These examples are illustrative of the main differences between web2 and web3 services.      </p>
+         <h3>WEB3 LIMITATIONS</h3>
+         <p>Web3 has some limitations right now:</p>
+       <ul>
+          <li><h3>Scalability</h3></li>Transactions are slower on web3 because they're decentralized. Changes to state, like a payment, need to be processed by a miner and propagated throughout the network.
+          <li><h3>UX</h3></li>Interacting with web3 applications can require extra steps, software, and education. This can be a hurdle to adoption.
+          <li><h3>Accessibility</h3></li>The lack of integration in modern web browsers makes web3 less accessible to most users.
+          <li><h3>Cost</h3></li>Most successful dapps put very small portions of their code on the blockchain as it's expensive.
+       </ul>
+        <h2>CENTRALIZATION VS DECENTRALIZATION</h2>
+        <p>In the section below we list some of the broad-strokes advantages and disadvantages of centralized and decentralized digital networks.</p>
+        <h3>Centralized Systems</h3>
+        <ul>
+          <li>Low network diameter (all participants are connected to a central authority); information propagates quickly, as propagation is handled by a central authority with lots of computational resources.</li>
+          <li>Usually higher performance (higher throughput, fewer total computational resources expended) and easier to implement.</li>
+          <li>In the event of conflicting data, resolution is clear and easy: the ultimate source of truth is the central authority.</li>
+          <li>Single point of failure: malicious actors may be able to take down the network by targeting the central authority.</li>
+          <li>Coordination among network participants is much easier, and is handled by a central authority. Central authority can compel network participants to adopt upgrades, protocol updates, etc., with very little friction.</li>
+          <li>Central authority can censor data, potentially cutting off parts of the network from interacting with the rest of the network.</li>
+          <li>Participation in the network is controlled by the central authority.</li>
+        </ul>
+        <h3>Decentralized Systems</h3>
+        <ul>
+          <li>The furthest participants on the network may potentially be many edges away from each other. Information broadcast from one side of the network may take a long time to reach the other side.</li>
+          <li>Usually lower performance (lower throughput, more total computational resources expended) and more complex to implement.</li>
+          <li>A protocol (often complex) is needed for dispute resolution, if peers make conflicting claims about the state of data which participants are meant to be synchronized on.</li>
+          <li>No single point of failure: network can still function even if a large proportion of participants are attacked/taken out.</li>
+          <li>Coordination is often difficult, as no single agent has the final say in network-level decisions, protocol upgrades, etc. In the worst case, network is prone to fracturing when there are disagreements about protocol changes.</li>
+          <li>Censorship is much harder, as information has many ways to propagate across the network.</li>
+          <li>Anyone can participate in the network; there are no “gatekeepers.” Ideally, the cost of participation is very low.</li>
+        </ul>
+        <p>Note that these are general patterns that may not hold true in every network. Furthermore, in reality the degree to which a network is centralized/decentralized lies on a spectrum; no network is entirely centralized or entirely decentralized.</p>
+      <h2>TERMINOLOGY</h2>
+        <ul>
+          <li>
+            <h3>Blockchain</h3>
+            The sequence of all blocks that have been committed to the Ethereum network in the history of the network. So named because each block contains a reference to the previous block, which helps us maintain an ordering over all blocks (and thus over the precise history).
+          </li>
+          <li>
+            <h3>ETH</h3>
+            Ether (ETH) is the native cryptocurrency of Ethereum. Users pay ETH to other users to have their code execution requests fulfilled.
+          </li>
+          <li>
+            <h3>EVM</h3>
+            The Ethereum Virtual Machine is the global virtual computer whose state every participant on the Ethereum network stores and agrees on. Any participant can request the execution of arbitrary code on the EVM; code execution changes the state of the EVM.
+          </li>
+          <li>
+            <h3>Nodes</h3>
+            The real-life machines which are storing the EVM state. Nodes communicate with each other to propagate information about the EVM state and new state changes. Any user can also request the execution of code by broadcasting a code execution request from a node. The Ethereum network itself is the aggregate of all Ethereum nodes and their communications.
+          </li>
+          <li>
+            <h3>Accounts</h3>
+            Where ETH is stored. Users can initialize accounts, deposit ETH into the accounts, and transfer ETH from their accounts to other users. Accounts and account balances are stored in a big table in the EVM; they are a part of the overall EVM state.
+          </li>
+          <li>
+            <h3>Transactions</h3>
+            A "transaction request" is the formal term for a request for code execution on the EVM, and a "transaction" is a fulfilled transaction request and the associated change in the EVM state. Any user can broadcast a transaction request to the network from a node. For the transaction request to affect the agreed-upon EVM state, it must be validated, executed, and "committed to the network" by another node. Execution of any code causes a state change in the EVM; upon commitment, this state change is broadcast to all nodes in the network. <br><br>
+            Some examples of transactions:<br>
+            Send X ETH from my account to Alice's account.<br>
+            Publish some smart contract code into EVM state.<br>
+            Execute the code of the smart contract at address X in the EVM, with arguments Y.<br>
+          </li>
+          <li>
+            <h3>Blocks</h3>
+            The volume of transactions is very high, so transactions are "committed" in batches, or blocks. Blocks generally contain dozens to hundreds of transactions.
+          </li>
+          <li>
+            <h3>Smart contracts</h3>
+            A reusable snippet of code (a program) which a developer publishes into EVM state. Anyone can request that the smart contract code be executed by making a transaction request. Because developers can write arbitrary executable applications into the EVM (games, marketplaces, financial instruments, etc.) by publishing smart contracts, these are often also called dapps, or Decentralized Apps.
+          </li>
+        </ul>
+        </p>
+      <p>
+    <section>
+    <section class="main-section" id="furtherReading">
+    <h2>FURTHER READING</h2>
+    <ul>
+        <li><a href="https://ethereum.org/en/whitepaper/" target="_blank" rel="noopener">
+          Ethereum Whitepaper</a></li>
+        <li><a href="https://www.preethikasireddy.com/post/how-does-ethereum-work-anyway" target="_blank" rel="noopener">
+          How does Ethereum work</a> - Preethi Kasireddy</li>
+        <li><a href="https://blockgeeks.com/guides/smart-contracts/" target="_blank" rel="noopener">
+          Smart Contracts: The Blockchain Technology That Will Replace Lawyers</a> - Blockgeeks</li>
+        <li><a href="https://yos.io/2019/11/10/smart-contract-development-best-practices/" target="_blank" rel="noopener">
+          Best Practices for Smart Contract Development</a> - Yos Riady</li>
+        <li><a href="https://www.wslyvh.com/clean-contracts/" target="_blank" rel="noopener">
+          Clean contracts - a guide on smart contract patterns & practices</a> - wslyvh</li>
+        <li><a href="https://ethereum.org/en/web3/" target="_blank" rel="noopener">
+          What is Web3? </a> - ethereum.org</li>
+        <li><a href="https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application" target="_blank" rel="noopener">
+          The Architecture of a Web 3.0 application</a> - Preethi Kasireddy</li>
+        <li><a href="https://limechain.tech/blog/what-are-dapps-the-2021-guide/" target="_blank" rel="noopener">
+          A 2021 guide to decentralized applications</a> - LimeChain</li>
+        <li><a href="https://www.gemini.com/cryptopedia/decentralized-applications-defi-dapps" target="_blank" rel="noopener">
+          What Are Decentralized Apps?</a> - Gemini</li>
+        <li><a href="https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274Q" target="_blank" rel="noopener">
+          The Meaning of Decentralization</a> - Vitalik Buterin</li>
+        <li><a href="https://medium.com/s/story/why-decentralization-matters-5e3f79f7638e" target="_blank" rel="noopener">
+          Why Decentralization Matters</a> - Chris Dixon</li>
+        <li><a href="https://medium.com/fabric-ventures/what-is-web-3-0-why-it-matters-934eb07f3d2b" target="_blank" rel="noopener">
+          What Is Web 3.0 & Why It Matters</a> - Max Mersch and Richard Muirhead</li>
+    </ul>  
+      </section>
+  <section class="main-section" id="Reference">
+    <h2>Reference</h2>
+    <article>
+      <ul>
+        <li>
+          All the documentation in this page was taken from <a href="https://ethereum.org/en/"target="_blank" rel="noopener">Ethereum</a>
+        </li>
+      </ul>
+    </article>
+  </section>
+</main>
+</body>
+</html>
