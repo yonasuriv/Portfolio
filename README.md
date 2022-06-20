@@ -19,7 +19,7 @@ I will attach the projects I've created to them so you have an idea, feel free t
 -- [Flash Whisper SE](https://github.com/yonasuriv/FlashWhisperSearchEngine)
 
 - **0.3  Files Encryption**<br>
--- [Voldemort Ramsomware](https://github.com/yonasuriv/Voldemort)
+-- [Voldemort Ransomware](https://github.com/yonasuriv/Voldemort)
 
 These are **totally optional**, I've created them to automate tasks and make work more efficient.
 
