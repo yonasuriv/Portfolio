@@ -21,7 +21,7 @@ I will attach the projects I've created to them so you have an idea, feel free t
 - **0.3  Files Encryption**<br>
 -- [Voldemort Ransomware](https://github.com/yonasuriv/Voldemort)
 
-- **0.3  Miscellaneous**<br>
+- **0.4  Miscellaneous**<br>
 -- [Omegle Data Retriever](https://github.com/yonasuriv/OMGfound)
 
 These are **totally optional**, I've created them to automate tasks and make work more efficient.
