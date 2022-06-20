@@ -81,7 +81,7 @@ These are definitely the 3 things you must show when creating your portfolio:
     *(Please don't blindly copy code without understanding its meaning)*<br>
 - Continuously improve and refine your projects.<br>
 - Put yourself in the shoes of the person who is hiring and pay attention to the details that make the difference <br>
-    *(That's how you show the 3 things above)*
+    *(This is how you show the 3 things above)*
 
 **There's also a 4th thing**, it's not a soft one, but not less important, **Orthography**.
 
