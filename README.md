@@ -14,7 +14,7 @@ I will attach the projects I've created to them so you have an idea, feel free t
 --   [JavaScript Console](https://github.com/yonasuriv/JavaScriptConsole)
 
 - **0.2  Search Engine**
---   [Flash Whisper Search Engine](https://github.com/yonasuriv/JavaScriptConsole)
+--   [Flash Whisper Search Engine](https://github.com/yonasuriv/FlashWhisperSearchEngine)
 
 These are **totally optional**, I've created them to automate tasks and make work more efficient.
 
