@@ -76,6 +76,14 @@ These are definitely the 3 things you must show when creating your portfolio:
 2.  **Energy**
 3.  **Capacity** (to evolve and learn "alone")
 
+
+
+**There's also a 4th thing**, but not less important, **Orthography**.
+
+- Try to write not only clean code, but clearly and without spelling errors.
+
+- You can use the help of third-party applications, such as extensions for your browser or code editor.
+
 Check out other projects to see people solving the same problem. 
 Getting inspiration from their ideas (please don't blindly copy code without understanding its meaning) is not cheating, you can learn a lot by doing it.
 Continuously improve and refine your projects. Put yourself in the shoes of the person who is hiring and pay attention to the details that make the difference (this is how you show the 3 things above)
@@ -110,14 +118,6 @@ Please, be sure to finish the Front-End **before** entering in the Back-End, or 
 #### It is possible to learn Back-End without Front-End?
 
 Yes, it is, although it will be much more complicated, and the hiring managers will most likely reject you.
-
-### One last thing
-
-But not less important, **Orthography**.
-
-Try to write not only clean code, but clearly and without spelling errors.
-
-You can use the help of third-party applications, such as extensions for your browser or code editor.
 
 
 
