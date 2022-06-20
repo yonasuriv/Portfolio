@@ -8,8 +8,7 @@ I will attach the projects I've created to them so you have an idea, feel free t
 **0.  Task Automation & Tools**
 
 - **0.1  Terminal**
---   [GitHub Automation](https://github.com/yonasuriv/GitHubAvtomata)
---   [Shell Customization Framework](https://github.com/yonasuriv/SigmaPowerShell)
+--   [GitHub Automation](https://github.com/yonasuriv/GitHubAvtomata) & [Shell Customization Framework](https://github.com/yonasuriv/SigmaPowerShell)
 
 - **0.2  Developer Tools**
 --   [JavaScript Console](https://github.com/yonasuriv/JavaScriptConsole)
