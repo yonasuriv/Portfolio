@@ -78,7 +78,7 @@ These are definitely the 3 things you must show when creating your portfolio:
 
 
 
-**There's also a 4th thing**, but not less important, **Orthography**.
+**There's also a 4th thing**, it's not a soft one, but not less important, **Orthography**.
 
 - Try to write not only clean code, but clearly and without spelling errors.
 
