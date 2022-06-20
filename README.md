@@ -15,10 +15,10 @@ I will attach the projects I've created to them so you have an idea, feel free t
 - **0.2  Developer Tools**<br>
 -- [JavaScript Console](https://github.com/yonasuriv/JavaScriptConsole)
 
-- **0.2  Search Engine**<br>
+- **0.3  Search Engine**<br>
 -- [Flash Whisper SE](https://github.com/yonasuriv/FlashWhisperSearchEngine)
 
-- **0.3  Miscellaneous** (educational purposes)<br>
+- **0.4  Miscellaneous** (educational purposes)<br>
 -- [Voldemort Ransomware File Encryptor](https://github.com/yonasuriv/Voldemort)<br>
 -- [Omegle Data Retriever](https://github.com/yonasuriv/OMGfound)
 
