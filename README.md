@@ -18,6 +18,9 @@ I will attach the projects I've created to them so you have an idea, feel free t
 - **0.2  Search Engine**<br>
 -- [Flash Whisper SE](https://github.com/yonasuriv/FlashWhisperSearchEngine)
 
+- **0.3  Misc**<br>
+-- [Voldemort Ramsonware](https://github.com/yonasuriv/FlashWhisperSearchEngine) Encryption and Decryption of files
+
 These are **totally optional**, I've created them to automate tasks and make work more efficient.
 
 **1.  Responsive Web Design Projects**
