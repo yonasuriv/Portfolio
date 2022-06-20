@@ -1,5 +1,5 @@
 ## Deprecated Version
-### Moved from [yonasuriv.github.io](https://www.github.com/yonasuriv.github.io/) to [yonasuriv.com](https://www.yonasuriv.com).
+### Moved from [yonasuriv.github.io](yonasuriv.github.io/) to [yonasuriv.com](https://www.yonasuriv.com).
 
 [View the repository](https://www.github.com/yonasuriv.github.io/)
 
