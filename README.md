@@ -1,6 +1,7 @@
 ## Junior Software Engineering Portfolio
 
 Below is a list of the recommended portfolio a junior software engineer should have.<br>
+If you don't like any or you have another one that's not listed here, that's okay.<br>
 I will attach the projects I've created to them so you have an idea, feel free to edit them with your own.
 
 **0.  Task Automation & Tools**
