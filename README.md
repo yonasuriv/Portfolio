@@ -1,11 +1,16 @@
+
 ## Junior Software Engineering Portfolio
 
 Below is a list of the recommended portfolio a junior software engineer should have.
-I will attach the projects I created to them so you have an idea, but feel free to edit the embedded links with your own.
+I will attach the projects I've created to them so you have an idea, but feel free to edit the embedded links with your own.
 
-**0.  Terminal Projects**
+**0.  Task Automation & Tools**
+
+**0.1  Terminal**
 -   [GitHub Automation](https://github.com/yonasuriv/GitHubAvtomata)
 -   [Shell Customization Framework](https://github.com/yonasuriv/SigmaPowerShell)
+
+**0.2  Developer Tools**
 -   [JavaScript Console](https://github.com/yonasuriv/JavaScriptConsole)
 
 *These are totally optional, created to automate tasks and make work more efficient.*
@@ -34,8 +39,9 @@ I will attach the projects I created to them so you have an idea, but feel free 
 -   [JavaScript Calculator](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/JavaScript%20Calculator)
 -   [Pomodoro Clock](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/Pomodoro%20Clock)
 
+---
 
-These are definitely the 3 things you must show:
+These are definitely the 3 things you must show when creating your portfolio:
 
 1.  **Passion**
 2.  **Energy**
