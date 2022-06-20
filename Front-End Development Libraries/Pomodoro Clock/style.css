@@ -1,0 +1,159 @@
+html {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+  color: #444;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fade-out {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.container {
+  width: 500px;
+  margin: 2% auto;
+  padding: 20px;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.setting {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+}
+
+.setting > div {
+  display: inline-block;
+}
+
+.setting div div {
+  display: inline-block;
+  padding: 0;
+  font-size: 2rem;
+  width: 40px;
+}
+
+.break {
+  padding-right: 20px;
+}
+
+.session {
+  padding-left: 20px;
+}
+
+.break p,
+.session p {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+span.decrease,
+span.increase {
+  padding: 0px 15px 5px;
+  margin: 2px;
+  display: inline-block;
+  width: 60px;
+  font-size: 2rem;
+  border: 1px solid transparent;
+  border-radius: 1px;
+  transition: all .1s ease-in-out;
+}
+
+span.decrease:hover,
+span.increase:hover {
+  border: 1px solid #bbb;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+span.decrease:active,
+span.increase:active {
+  background-color: #aaa;
+}
+
+.status {
+  font-size: 2rem;
+  transition: all 150ms ease-in-out;
+}
+
+.timer {
+  font-size: 6rem;
+  margin: 10px 0;
+  padding: 50px 0;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  position: relative;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+
+.timeRemaining {
+  font-family: 'Roboto Mono', monospace;
+  transition: all 150ms ease-in-out;
+}
+
+.play-hidden {
+  display: none;
+  -webkit-animation: fade-in 250ms;
+}
+
+.play-display {
+  position: absolute;
+  top: -100px;
+  left: 170px;
+  color: #83EDA0;
+  z-index: 10;
+  -webkit-animation: fade-in 250ms;
+  font-size: 10rem;
+}
+
+.reset {
+  font-size: 1.2rem;
+  margin: 10px 0 0;
+  padding: 20px 0;
+  cursor: pointer;
+  color: #FFF;
+  background-color: #8d02de;
+  transition: all 100ms ease-in-out;
+}
+
+.reset:hover {
+  background-color: #de02cc;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  border-color: #1857BB;
+}
+
+.reset:active {
+  background-color: #8d02de;
+}

@@ -6,6 +6,7 @@ I will attach the projects I created to them so you have an idea, but feel free 
 **0.  Terminal Projects**
 -   [GitHub Automation](https://github.com/yonasuriv/GitHubAvtomata)
 -   [Shell Customization Framework](https://github.com/yonasuriv/SigmaPowerShell)
+-   [JavaScript Console](https://github.com/yonasuriv/JavaScriptConsole)
 
 *These are totally optional, created to automate tasks and make work more efficient.*
 
