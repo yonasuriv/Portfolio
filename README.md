@@ -78,7 +78,7 @@ Check out other projects to see people solving the same problem.
 Getting inspiration from their ideas (please don't blindly copy code without understanding its meaning) is not cheating, you can learn a lot by doing it.
 Continuously improve and refine your projects. Put yourself in the shoes of the person who is hiring and pay attention to the details that make the difference (this is how you show the 3 things above)
 
-I'll be adding some so you can take a look, meanwhile feel free to search for them on your favorite search engine.
+*I'll be adding some so you can take a look, meanwhile feel free to search for them on your favorite search engine.*
 
 ### FCC Test Suite
 FreeCodeCamp Developed this helpful Test Suite.
