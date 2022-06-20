@@ -30,6 +30,7 @@ These are **totally optional**, I've created them to automate tasks and make wor
 
 **2. JavaScript Algorithms and Data Structures Projects**
 
+-   [Word Counter](https://github.com/yonasuriv/portfolio/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures/Word%20Counter)
 -   [Palindrome Checker](https://github.com/yonasuriv/portfolio/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures/Palindrome%20Checker)
 -   [Roman Numeral Converter](https://github.com/yonasuriv/portfolio/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures/Roman%20Numeral%20Converter)
 -   [Caesars Cipher](https://github.com/yonasuriv/portfolio/tree/main/JavaScript%20Algorithms%20and%20Data%20Structures/Caesars%20Cipher)
