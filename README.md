@@ -45,9 +45,8 @@ These are **totally optional**, I've created them to automate tasks and make wor
 -   [Random Quote Machine](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/Random%20Quote%20Machine)
 -   [Markdown Previewer](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/Markdown%20Previewer)
 -   [Drum Machine](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/Drum%20Machine)
--   [JavaScript Calculator](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/JavaScript%20Calculator) which later led to the creation of the Math WebTool [MathBot](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/JavaScript%20Calculator/MathBot)
 -   [Pomodoro Clock](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/Pomodoro%20Clock)
-
+-   [JavaScript Calculator](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/JavaScript%20Calculator) which later led to the creation of the Math WebTool [MathBot](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/JavaScript%20Calculator/MathBot)
 
 ## How can I become a Junior Software Developer?
 
