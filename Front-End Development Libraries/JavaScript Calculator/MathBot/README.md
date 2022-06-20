@@ -1,5 +1,5 @@
 ## MathBot
-MathBot is a WebTool that helps you with Basic Math.
+MathBot is a WebTool that helps you with Basic Math (Geometry, Discounts, Statistics and Analysis)
 
 ### See it live on [Vercel](https://mathbot.vercel.app/)
 
