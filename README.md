@@ -7,14 +7,14 @@ I will attach the projects I've created to them so you have an idea, feel free t
 
 **0.  Task Automation & Tools**
 
-- **0.1  Terminal**
+- **0.1  Terminal**<br>
 -- [GitHub Automation](https://github.com/yonasuriv/GitHubAvtomata)<br>
 -- [Shell Customization Framework](https://github.com/yonasuriv/SigmaPowerShell)
 
-- **0.2  Developer Tools**
+- **0.2  Developer Tools**<br>
 -- [JavaScript Console](https://github.com/yonasuriv/JavaScriptConsole)
 
-- **0.2  Search Engine**
+- **0.2  Search Engine**<br>
 -- [Flash Whisper SE](https://github.com/yonasuriv/FlashWhisperSearchEngine)
 
 These are **totally optional**, I've created them to automate tasks and make work more efficient.
