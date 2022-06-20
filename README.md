@@ -1,4 +1,5 @@
 
+
 ## Junior Software Engineering Portfolio
 
 Below is a list of the recommended portfolio a junior software engineer should have.
@@ -39,19 +40,11 @@ I will attach the projects I've created to them so you have an idea, but feel fr
 -   [JavaScript Calculator](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/JavaScript%20Calculator)
 -   [Pomodoro Clock](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/Pomodoro%20Clock)
 
----
 
-These are definitely the 3 things you must show when creating your portfolio:
 
-1.  **Passion**
-2.  **Energy**
-3.  **Capacity** (to evolve and learn "alone")
 
-Check out other projects to see people solving the same problem. 
-Getting inspiration from their ideas (please don't blindly copy code without understanding its meaning) is not cheating, you can learn a lot by doing it.
-Continuously improve and refine your projects. Put yourself in the shoes of the person who is hiring and pay attention to the details that make the difference (this is how you show the 3 things above)
 
-I'll be adding some so you can take a look, meanwhile feel free to search for them on your favorite search engine.
+
 
 ## How can I become a Junior Software Developer?
 
@@ -80,6 +73,33 @@ Also, E-Learning platforms nowadays are sky-rocketing, without the need for a Un
 -   [HackerRank](https://www.hackerrank.com/)
 -   [Exercism](https://exercism.org/tracks/javascript)
 -   [Interviewbit](https://www.interviewbit.com/courses/fast-track-js/)
+
+### Soft Skills needed
+These are definitely the 3 things you must show when creating your portfolio:
+
+1.  **Passion**
+2.  **Energy**
+3.  **Capacity** (to evolve and learn "alone")
+
+Check out other projects to see people solving the same problem. 
+Getting inspiration from their ideas (please don't blindly copy code without understanding its meaning) is not cheating, you can learn a lot by doing it.
+Continuously improve and refine your projects. Put yourself in the shoes of the person who is hiring and pay attention to the details that make the difference (this is how you show the 3 things above)
+
+I'll be adding some so you can take a look, meanwhile feel free to search for them on your favorite search engine.
+
+### FCC Test Suite
+FreeCodeCamp Developed this helpful Test Suite.
+
+Simply add the below script section of your after the ending of your body tag on your HTML.
+
+    <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+
+#### Instructions 
+  - Select the project you would  like to complete from the dropdown menu.
+  - Click the "RUN TESTS" button to run the tests against the blank pen.
+  - Click the "TESTS" button to see the individual test cases. (should all be failing at first)
+  - Start coding! As you fulfill each test case, you will see them go from red to green.
+  - As you start to build out your project, when tests are failing, you should get helpful errors along the way!
 
 ## Roadmap
 
