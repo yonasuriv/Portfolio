@@ -109,7 +109,15 @@ Please, be sure to finish the Front-End **before** entering in the Back-End, or 
 
 #### It is possible to learn Back-End without Front-End?
 
-Yes, it is, although it will be much more complicated, and the hiring managers will most likely not take you into account.
+Yes, it is, although it will be much more complicated, and the hiring managers will most likely reject you.
+
+#### One last thing
+
+But not less important, **Orthography**.
+
+Try to write not only clean code, but clearly and without spelling errors.
+
+You can use the help of third-party applications, such as extensions for your browser or code editor.
 
 
 
