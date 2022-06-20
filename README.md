@@ -1,8 +1,6 @@
-
-
 ## Junior Software Engineering Portfolio
 
-Below is a list of the recommended portfolio a junior software engineer should have.
+Below is a list of the recommended portfolio a junior software engineer should have.<br>
 I will attach the projects I've created to them so you have an idea, but feel free to edit the embedded links with your own.
 
 **0.  Task Automation & Tools**
@@ -14,7 +12,7 @@ I will attach the projects I've created to them so you have an idea, but feel fr
 **0.2  Developer Tools**
 -   [JavaScript Console](https://github.com/yonasuriv/JavaScriptConsole)
 
-*These are totally optional, created to automate tasks and make work more efficient.*
+These are totally optional, I've created to automate tasks and make work more efficient.
 
 **1.  Responsive Web Design Projects**
 
@@ -37,13 +35,8 @@ I will attach the projects I've created to them so you have an idea, but feel fr
 -   [Random Quote Machine](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/Random%20Quote%20Machine)
 -   [Markdown Previewer](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/Markdown%20Previewer)
 -   [Drum Machine](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/Drum%20Machine)
--   [JavaScript Calculator](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/JavaScript%20Calculator)
+-   [JavaScript Calculator](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/JavaScript%20Calculator) that branched into a tool for Geometry, Statistics, Analysis, and Discounts.
 -   [Pomodoro Clock](https://github.com/yonasuriv/portfolio/tree/main/Front-End%20Development%20Libraries/Pomodoro%20Clock)
-
-
-
-
-
 
 
 ## How can I become a Junior Software Developer?
