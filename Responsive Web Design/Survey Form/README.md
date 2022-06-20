@@ -1,5 +1,3 @@
 ## Survey Form Project
 
-### Quote Form for Website
-
-![Survey-Form](https://user-images.githubusercontent.com/59540565/174686672-3458fd40-034f-4e55-a5a5-4445c324339e.png)
+![Survey-Form](https://user-images.githubusercontent.com/59540565/174686823-8bb771f6-8ab2-4487-8842-c0f9493f04b3.png)
