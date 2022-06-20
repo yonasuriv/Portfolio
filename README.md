@@ -62,6 +62,7 @@ Also, E-Learning platforms nowadays are sky-rocketing, without the need for a Un
 
 #### Where can I practice?
 -   [CodeWars](https://www.codewars.com/?language=javascript)
+-   [CodeingGame](https://www.codingame.com/)
 -   [LeetCode](https://leetcode.com/)
 -   [HackerRank](https://www.hackerrank.com/)
 -   [Exercism](https://exercism.org/tracks/javascript)
