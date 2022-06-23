@@ -1,0 +1,84 @@
+@keyframes colors-wee {
+  0% {
+    background-color: #ff944d;
+  }
+  10% {
+    background-color: #ff3333;
+  }
+  20% {
+    background-color: #ff3399;
+  }
+  30% {
+    background-color: #a64dff;
+  }
+  40% {
+    background-color: #6666ff;
+  }
+  50% {
+    background-color: #33d6ff;
+  }
+  60% {
+    background-color: #4dff88;
+  }
+  70% {
+    background-color: #d2ff4d;
+  }
+  80% {
+    background-color: #ffcc00;
+  }
+  90% {
+    background-color: #adad85;
+  }
+  100% {
+    background-color: #a6a6a6;
+  }
+}
+
+.bg-1{
+  /* Set animation for background */
+  background-color: orange;
+  animation-name: colors-wee;
+  animation-duration: 140s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 2s;
+
+  /* Set rules to fill background */
+  min-height: 100%;
+  padding: 110px;
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+* {
+ font-family: 'exo 2';
+}
+
+.button-stuff{
+ margin-top: 20px;
+ margin-bottom: 20px;
+ font-size: 16px;
+ justify-content: center;
+}
+
+.glyphicon {
+  font-size: 12px;
+}
+
+.well-stuff{
+ margin:auto;
+ margin-top: 20px;
+ margin-bottom:20px;
+ width: 80%;
+ padding-right:50px;
+ padding-left:50px;
+}
