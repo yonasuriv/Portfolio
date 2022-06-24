@@ -40,7 +40,7 @@ var quotesArr = [
   "The only true wisdom is in knowing you know nothing - Socrates", 
   "War is peace. freedom is slavery. ignorance is strength - George Orwell", 
   "All animals are equal, but some animals are more equal than others - George Orwell", 
-  "This is your life and its ending one moment at a time - Chuck palahniuk", 
+  "This is your life and its ending one moment at a time - Chuck Palahniuk", 
   "It's only after we've lost everything that we're free to do anything - Chuck Palahniuk", 
   "The problem with quotes found on the internet is that they are often not true - Abraham Lincoln", 
   "Know thy self, know thy enemy. a thousand battles, a thousand victories - Sun Tzu", 
