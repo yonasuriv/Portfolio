@@ -53,6 +53,8 @@ var quotesArr = [
   "I think it's fair to say that personal computers have become the most empowering tool we've ever created. They're tools of communication, they're tools of creativity, and they can be shaped by their user. - Bill Gates",
   "Curiosity is the engine of achievement - Jonathan Di Rico",
   "Coding is the language of the future, and every girl should learn it. As I've learned from watching girls grow and learn in our classrooms, coding is fun, collaborative and creative - Reshma Saujani",
+  "Whether you want to uncover the secrets of the universe, or you just want to pursue a career in the 21st century, basic computer programming is an essential skill to learn. - Stephen Hawking",
+  "Everybody should learn to program a computer, because it teaches you how to think. - Steve Jobs"
 
 ];
 var randomVal = -1;
