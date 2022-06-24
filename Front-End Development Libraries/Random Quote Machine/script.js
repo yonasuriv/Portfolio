@@ -32,7 +32,7 @@ $(document).ready(function() {
 var quotesArr = [
   "Just do it - Nike", 
   "Place your iron hand inside a velvet glove - Napoleon", 
-  "Any man who tries to be good all the time is bound to come to ruin among the great number who are not good - niccolo Machiavelli", 
+  "Any man who tries to be good all the time is bound to come to ruin among the great number who are not good - Niccolo Machiavelli", 
   "Don't make a girl a promise... if you know you can't keep it - Cortana", 
   "Not by speeches and votes of the majority are the great questions of the time decided, but by iron and blood - Otto Von Bismarck", 
   "Somewhere, something incredible is waiting to be known - Carl Sagan", 
