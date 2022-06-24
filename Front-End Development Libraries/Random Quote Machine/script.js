@@ -51,7 +51,7 @@ var quotesArr = [
   "There's no talent here, this is hard work, this is an obsession. talent does not exist, we are all equals as human beings. you could be anyone if you put in the time. you will reach the top, and that's that. I am not talented, I am obsessed. - Conor McGregor", 
   "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live ― John Woods", 
   "I think it's fair to say that personal computers have become the most empowering tool we've ever created. They're tools of communication, they're tools of creativity, and they can be shaped by their user. - Bill Gates",
-  "Curiosity is the engine of achievement - Ken Robinson",
+  "Curiosity is the engine of achievement - Jonathan Di Rico",
   "Coding is the language of the future, and every girl should learn it. As I've learned from watching girls grow and learn in our classrooms, coding is fun, collaborative and creative - Reshma Saujani",
 
 ];
