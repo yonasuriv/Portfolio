@@ -2,7 +2,7 @@
 // METHOD 1 
 function palindromeCheck1(str) {                  // L1 - create function where we can input a 'string', and then perform following to said string:
   return (                                        // L2 - return () -> will output a boolean value based on the === operator, true or false. 
-    str.replace(/[\W_]/g, "").toLowerCase() ===   // L3 - "first version" deletes all non-alpha-numeric elements, and lowercases remaining characters -> "ivudang"
+    str.replace(/[\W_]/g, "").toLowerCase() ===   // L3 - "first version" deletes all non-alpha-numeric elements, and lowercases remaining characters -> "yonasuriv"
     
     str                                           // L4 - "second version" aka the reversed version 
       .replace(/[\W_]/g, "")                      // L5 - deletes all non-alpha-numeric elements
@@ -10,12 +10,12 @@ function palindromeCheck1(str) {                  // L1 - create function where 
       .split("")                                  // L7 - splits characters into elements within an array BECAUSE STRINGS ARE IMMUTABLE (cannot be altered)
       .reverse()                                  // L8 - AND then we can reverse the elements within the array -> ["g", "n", "a", "d", "u", "v", "i"]
       .join("")                                   // L9 - and then convert it back into a string -> "gnaduvi"
-  );                                              // THEREFORE, "ivudang" === "gnaduvi" -> FALSE 
+  );                                              // THEREFORE, "yonasuriv" === "gnaduvi" -> FALSE 
 }
 
 // TEST EXAMPLE
 console.log(palindromeCheck2("Race Car_")); // True
-console.log(palindromeCheck2("i Vu_Dang")); // False 
+console.log(palindromeCheck2("Jonathan Di Rico")); // False 
 
 /*
 // HIGH LEVEL OUTLINE 
@@ -38,7 +38,7 @@ function palindromeCheck2(str) {                                                
 
 // TEST EXAMPLE
 console.log(palindromeCheck2("Race Car_")); // True
-console.log(palindromeCheck2("i Vu_Dang")); // False 
+console.log(palindromeCheck2("yonasuriv")); // False 
 
 /*
 // HIGH LEVEL OUTLINE 
@@ -61,8 +61,8 @@ g modifier -> it will operate on all matches, rather than stopping after the fir
 L3 - created our first version of the string, where we converted all elements to lower case, and removed all non-alpha-numeric characters
 .replace syntax -> .replace(find value, new value)
 We referenced back to our variable 'const nonAlphaNum' to find all current non-alpha-numeric characters, and replaced it with '' meaning whatever was found was replaced with nothing, aka deleting the element. 
-str.toLowerCase() -> "i vu_dang"
-.replace(nonAlphaNum, ''); -> "ivudang"
+str.toLowerCase() -> "yonasuriv"
+.replace(nonAlphaNum, ''); -> "yonasuriv"
 
 
 L4 - created our second or the reversed version of the string, where we took our first version and applied a few more methods to it. 
@@ -72,7 +72,7 @@ firstversion -> takes our modified string earlier that has been converted to all
 .join('') -> convert an array of elements into one string -> "gnaduvi"
 
 
-L5 - reversedVersion === firstVersion   ->    "ivudang" === "gnauvi"  -> FALSE 
+L5 - reversedVersion === firstVersion   ->    "yonasuriv" === "gnauvi"  -> FALSE 
 
 */ 
 
