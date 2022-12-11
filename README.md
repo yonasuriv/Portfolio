@@ -1,4 +1,5 @@
-
+> This is the portfolio I've created using the Software Engineering Roadmap.
+> I've also included some projects of Information Security.
 
 ## Junior Software Engineering Portfolio
 
